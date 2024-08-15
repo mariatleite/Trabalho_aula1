@@ -8,9 +8,21 @@ Jurimetria
 É a área da ciência de dados que foca na análise e compreensão de como a doutrina e a jurisprudência são aplicadas, ajudando a identificar mudanças nas normas e novas tendências nas decisões judiciais. Analisar decisões repetitivas de juízes, padrões de atuação em casos semelhantes pode revelar tendências e colocar o profissional de Direito em uma posição de vantagem.
 Algoritmos
 Algoritmos são séries estruturadas de comandos que detalham como realizar uma tarefa ou resolver um problema específico. Esses comandos são executados um após o outro e são cruciais para a programação de computadores, pois permitem que as máquinas processem informações, façam escolhas e realizem operações complexas de maneira automatizada e eficiente.
+Nuvem
+A nuvem é uma rede global de servidores que desempenham funções específicas, como armazenamento de dados, execução de aplicativos e fornecimento de serviços online. Não é uma entidade física, mas um conjunto de servidores remotos conectados que operam como um ecossistema único. Em vez de acessar arquivos diretamente de um computador, você pode acessá-los online, de qualquer dispositivo com internet, o que garante acesso às informações a qualquer hora e em qualquer lugar.
+Inteligência Artificial
+A inteligência artificial (IA) é uma tecnologia que capacita computadores e máquinas a imitar a habilidade humana de solucionar problemas e demonstrar inteligência. Seja de forma isolada ou combinada com outras tecnologias, como sensores, geolocalização e robótica, a IA pode realizar tarefas que normalmente exigiriam a intervenção humana. Exemplos comuns de IA em nosso cotidiano incluem assistentes digitais, sistemas de navegação por GPS, veículos autônomos, e ferramentas de geração de conteúdo, como o Chat GPT da OpenAI.
+Servidor (computação)
+Um servidor é um sistema de hardware ou software que fornece serviços e recursos a outros computadores, chamados de clientes, em uma rede. Ele processa solicitações dos clientes e responde com informações ou serviços, como hospedagem de sites, armazenamento de arquivos e execução de aplicativos. Servidores podem ser dedicados ou virtualizados e são fundamentais para a comunicação e compartilhamento de recursos na Internet e outras redes.
+Dados
+Dados, no contexto da computação, referem-se a registros brutos e não processados que podem incluir números, métricas, confirmações ou qualquer outro tipo de informação básica. Eles são caracterizados pela ausência de organização e estrutura, não possuindo uma definição inicial sobre sua utilidade. Dados podem ser encontrados em diversas fontes, muitas vezes de forma desorganizada, e são fundamentais como a matéria-prima a partir da qual informações mais complexas são geradas através de processamento e análise.
+Informação
+Informação, no contexto da computação, é o resultado do processamento e análise de dados brutos, transformando-os em uma constatação sólida e comprovada sobre um fato, hipótese ou padrão de comportamento. Enquanto os dados são registros desorganizados e não processados, a informação surge quando esses dados são organizados e interpretados, revelando insights ou conclusões valiosas. A importância dos dados reside justamente em sua capacidade de se converter em informação, fornecendo um significado claro e aplicável que pode ser usado para tomar decisões, resolver problemas ou entender melhor um determinado contexto.
 https://medium.com/@celionormando/sistemas-operacionais-31f3bb12c0d1   Acesso em 08/08/2024
 https://www.techtudo.com.br/noticias/2015/05/o-que-e-zero-rating-entenda-polemica-que-envolve-facebook-e-operadoras.ghtml  Acesso em 08/08/2024
 https://agenciabrasil.ebc.com.br/geral/noticia/2017-12/entenda-o-que-e-neutralidade-de-rede-e-como-e-o-seu-funcionamento-no-brasil  Acesso em 08/08/2024
 https://www.projuris.com.br/blog/jurimetria/  Acesso em 08/08/2024
 https://www.totvs.com/blog/inovacoes/o-que-sao-algoritmos/  Acesso em 08/08/2024
-git commit //
+https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-the-cloud/  Acesso em 14/08/2024
+https://www.ibm.com/br-pt/topics/artificial-intelligence  Acesso em 14/08/2024
+https://rockcontent.com/br/blog/qual-e-a-diferenca-entre-dado-e-informacao/  Acesso em 14/08/2024
