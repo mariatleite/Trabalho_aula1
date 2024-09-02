@@ -1,0 +1,18 @@
+1 – Explique as diferenças entre 3 linguagens de programação:
+Python é uma linguagem de alto nível, conhecida por sua simplicidade e legibilidade. É amplamente utilizada em ciência de dados, automação, desenvolvimento web, e muito mais. Python é interpretada, o que significa que o código é executado linha por linha.
+JavaScript é uma linguagem de programação interpretada, amplamente usada para o desenvolvimento de sites interativos. Ela é executada principalmente no lado do cliente (navegador), mas também pode ser usada no lado do servidor com Node.js.
+C é uma linguagem de programação de baixo nível, amplamente utilizada para o desenvolvimento de sistemas operacionais, drivers, e softwares onde a performance é crítica. É uma linguagem compilada, o que significa que o código deve ser compilado em um executável antes de ser executado.
+
+a. Tente fazer um código mínimo em cada uma delas
+print("Hello, World!")
+console.log("Hello, World!");
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+Referências:
+https://www.devmedia.com.br/do-c-c-para-o-java-conheca-as-diferencas-e-principais-caracteristicas/26773
+https://www.remessaonline.com.br/blog/linguagem-de-programacao/ 
