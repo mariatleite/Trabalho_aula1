@@ -4,14 +4,92 @@ JavaScript é uma linguagem de programação interpretada, amplamente usada para
 C é uma linguagem de programação de baixo nível, amplamente utilizada para o desenvolvimento de sistemas operacionais, drivers, e softwares onde a performance é crítica. É uma linguagem compilada, o que significa que o código deve ser compilado em um executável antes de ser executado.
 
 a. Tente fazer um código mínimo em cada uma delas
-print("Hello, World!")
-console.log("Hello, World!");
+PHYTON:
+clientes = []
+
+while True:
+    nome = input("Nome: ")
+    telefone = input("Telefone: ")
+    clientes.append({"nome": nome, "telefone": telefone})
+    print("Cliente cadastrado!")
+    
+    continuar = input("Deseja cadastrar outro cliente? (s/n): ")
+    if continuar.lower() != "s":
+        break
+
+print("\nClientes cadastrados:")
+for cliente in clientes:
+    print(f"Nome: {cliente['nome']}, Telefone: {cliente['telefone']}")
+
+JAVASCRIPT
+let clientes = [];
+
+while (true) {
+    const nome = prompt("Nome: ");
+    const telefone = prompt("Telefone: ");
+    clientes.push({ nome, telefone });
+    console.log("Cliente cadastrado!");
+
+    const continuar = prompt("Deseja cadastrar outro cliente? (s/n): ");
+    if (continuar.toLowerCase() !== 's') {
+        break;
+    }
+}
+
+console.log("\nClientes cadastrados:");
+clientes.forEach(cliente => {
+    console.log(`Nome: ${cliente.nome}, Telefone: ${cliente.telefone}`);
+});
+
+C
 #include <stdio.h>
+#include <string.h>
+
+#define MAX_CLIENTES 100 // Limite máximo de clientes
+
+typedef struct {
+    char nome[50];
+    char telefone[20];
+} Cliente;
 
 int main() {
-    printf("Hello, World!\n");
+    Cliente clientes[MAX_CLIENTES];
+    int num_clientes = 0;
+
+    while (1) {
+        char nome[50], telefone[20], continuar[2];
+
+        printf("Nome: ");
+        fgets(nome, sizeof(nome), stdin);
+        nome[strcspn(nome, "\n")] = 0; // Remove a nova linha
+
+        printf("Telefone: ");
+        fgets(telefone, sizeof(telefone), stdin);
+        telefone[strcspn(telefone, "\n")] = 0;
+
+        strcpy(clientes[num_clientes].nome, nome);
+        strcpy(clientes[num_clientes].telefone, telefone);
+        num_clientes++;
+
+        printf("Cliente cadastrado!\n");
+
+        printf("Deseja cadastrar outro cliente? (s/n): ");
+        fgets(continuar, sizeof(continuar), stdin);
+        continuar[strcspn(continuar, "\n")] = 0;
+
+        if (continuar[0] != 's' && continuar[0] != 'S') {
+            break;
+        }
+    }
+
+    printf("\nClientes cadastrados:\n");
+    for (int i = 0; i < num_clientes; i++) {
+        printf("Nome: %s, Telefone: %s\n", clientes[i].nome, clientes[i].telefone);
+    }
+
     return 0;
 }
+
 
 Referências:
 https://www.devmedia.com.br/do-c-c-para-o-java-conheca-as-diferencas-e-principais-caracteristicas/26773
