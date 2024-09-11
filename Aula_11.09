@@ -27,3 +27,6 @@ if nota >= 7:
 else:
     print("Reprovado.")
 
+
+
+
