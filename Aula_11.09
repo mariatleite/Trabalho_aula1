@@ -1,0 +1,29 @@
+ESTRUTURA DE REPETIÇÃO:
+  FOR
+frutas = ["maçã", "banana", "laranja"]
+for fruta in frutas:
+    print(fruta)
+
+  WHILE
+i = 1
+soma = 0
+while i <= 10:
+    soma += i
+    i += 1
+print("A soma é:", soma)
+
+ESTRUTURA DE TOMADA DE DECISÃO
+
+idade = 18
+
+if idade >= 18:
+    print("Você é maior de idade.")
+
+
+nota = 7
+
+if nota >= 7:
+    print("Aprovado!")
+else:
+    print("Reprovado.")
+
