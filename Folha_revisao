@@ -1,0 +1,48 @@
+1. Dominar conceitos fundamentais de computação é vantajoso no Direito porque facilita a compreensão de provas digitais (e-mails, redes sociais), ajuda a interpretar leis sobre privacidade e crimes cibernéticos, permite a automação de tarefas jurídicas (geração de documentos, análise de jurisprudências) e melhora a eficiência ao adotar sistemas de inteligência artificial.
+2. a) Algoritmo: Conjunto de instruções bem definidas que descrevem uma sequência de operações a serem realizadas para resolver um problema ou realizar uma tarefa.
+
+b) Nuvem: Refere-se a servidores e serviços acessíveis via internet, que armazenam e processam dados remotamente.
+
+c) Servidor: Sistema (hardware e software) que fornece serviços a outros computadores ou dispositivos (clientes) em uma rede.
+
+d) Neutralidade da rede: Princípio de que todo tráfego na internet deve ser tratado de forma igual, sem discriminação quanto a conteúdo, origem ou destino.
+
+e) Arquivo: Coleção de dados armazenados em um sistema de armazenamento, geralmente com um nome e formato definidos.
+3. A palavra "Internet" organiza diferentes conceitos como máquinas (dispositivos conectados), cabos (infraestrutura física), programas (software que controla a comunicação) e dados (informações transmitidas), formando uma rede global que permite a troca de informações usando protocolos de comunicação.
+4. Os computadores foram inventados para realizar tarefas repetitivas, complexas e em grande escala com rapidez e precisão. Embora só repitam o que os humanos sabem, eles o fazem de forma automática e eficiente, processando grandes volumes de dados em alta velocidade e sem erros.
+5. Uma rede neural não pode tomar essas decisões porque é opaca (caixa preta), dificultando a explicação dos processos. Modelos como árvores de decisão são preferidos, pois são mais transparentes e auditáveis, facilitando a responsabilidade ética e legal em decisões complexas.
+6. Arquivo binário: Contém dados em formato binário, compreensíveis apenas por softwares específicos (ex: arquivos de imagem, áudio, executáveis).
+Arquivo de texto: Contém caracteres legíveis por humanos e pode ser visualizado em qualquer editor de texto (ex: .txt, .csv).
+7. Formato proprietário: Pertence a uma empresa e só pode ser usado em softwares licenciados por ela (ex: .docx da Microsoft).
+Formato aberto: É público e pode ser usado por qualquer pessoa ou desenvolvedor (ex: .pdf, .odt).
+No contexto de dados públicos, formatos abertos garantem maior acessibilidade, transparência e continuidade no acesso aos dados, mesmo com mudanças de softwares ou tecnologias
+8. Protocolo aberto: Livre para implementação por qualquer desenvolvedor (ex: HTTP, TCP/IP).
+Protocolo proprietário: Pertence a uma empresa e seu uso é restrito por licenças (ex: Skype).
+Protocolos abertos promovem a inovação e liberdade econômica, permitindo que novos serviços e aplicativos sejam desenvolvidos livremente, enquanto protocolos proprietários limitam essa liberdade.
+9. a) O sistema operacional é o software que gerencia o hardware e os recursos do computador, atuando como intermediário entre os programas e os componentes físicos do dispositivo.
+b) Não. Existem diversos sistemas operacionais, como Windows, macOS, Linux, Android, e iOS.
+c) Sim. Isso pode ser considerado "venda casada", pois o consumidor é forçado a adquirir um produto ou serviço (o sistema operacional) sem opção de escolha, o que pode ser interpretado como uma prática abusiva.
+10. a) Sim. A LGPD se aplica a dados de indivíduos no Brasil, independentemente de onde os dados estão sendo processados, o que inclui datacenters no exterior.
+b) Nem sempre. Algumas plataformas aplicam suas regras de maneira inconsistente, muitas vezes sem transparência sobre as decisões tomadas.
+Muitas plataformas não agem com a rapidez necessária ou aplicam ações insuficientes, permitindo que conteúdos falsos e prejudiciais permaneçam ativos por tempo demais.
+11. a) for: Executa um bloco de código para cada item de uma sequência.
+while: Executa um bloco de código enquanto uma condição é verdadeira.
+b) Blocos de comando são definidos pela indentação em Python.
+c) Soma numérica: Utilizado para somar dois ou mais números.
+Concatenação de strings: Utilizado para juntar duas ou mais strings
+d) Uma função é um bloco de código reutilizável que executa uma tarefa específica e pode receber entradas (argumentos) e retornar saídas (resultados).
+e) Uma função em Python é definida usando a palavra-chave def:
+f) if x > 10:
+    print("Maior que 10")
+
+if x > 10:
+    print("Maior que 10")
+else:
+    print("Menor ou igual a 10")
+
+if x > 10:
+    print("Maior que 10")
+elif x == 10:
+    print("Igual a 10")
+else:
+    print("Menor que 10")
